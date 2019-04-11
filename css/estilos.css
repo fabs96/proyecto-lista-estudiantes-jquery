@@ -1,0 +1,37 @@
+
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+.container{
+  background: #E6E6FA;
+  width: 50%;
+  height: 80%;
+  margin:0 auto;
+  position: relative;
+  padding: 10px;
+  border:2px;
+  border-radius: 25px;
+}
+.container label{
+  font-weight: bold;
+  font-size:20px;
+  font-style: italic;
+  font-family: helvetica,Arial,sans-serif;
+}
+.container button{
+ font-size: 15px;
+ font-style: oblique;
+}
+.container button:hover{
+  cursor:not-allowed;
+  text-decoration: underline;
+  cursor: pointer;
+}
+table{
+  width: 80%;
+  padding: 5px;
+  margin : 10px;
+  text-align: center;
+}
