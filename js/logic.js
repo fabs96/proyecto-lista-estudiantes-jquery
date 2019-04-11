@@ -15,8 +15,6 @@ $().ready(function(){
     limpiarCampos();
   });
 
-
-
 });
 
 function listarNotas(){
